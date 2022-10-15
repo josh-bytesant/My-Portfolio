@@ -29,16 +29,14 @@ const AppBar = () => {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#myhome">Home</a>
+                  <a className="nav-link active" aria-current="page" href="#my-home">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#About">About</a>
+                  <a className="nav-link" href="#my-about">About</a>
                 </li>
+                
                 <li className="nav-item">
-                  <a className="nav-link" href="#Skills">Skills</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#Experiences">Experiences</a>
+                  <a className="nav-link" href="#my-experiences">Experiences</a>
                 </li>
               </ul>
             </div>
