@@ -94,7 +94,7 @@ const Home = () => {
                                     <li><span>Javascript</span></li>
                                 </ul>
                             </div>
-                            <a href="https://drive.google.com/file/d/1n6793LxSgeBPqOeJ4GSqsyNrwHH1cbSG/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-fill wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.4s">Downlaod CV <i class="fa fa-download"></i></a>
+                            <a href="https://drive.google.com/file/d/1IHUud6GCDVQ1wJG74ThbksT8g3uhlYS7/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-fill wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.4s">Downlaod CV <i class="fa fa-download"></i></a>
                         </div>
                     </div>
                 </div>
