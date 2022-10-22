@@ -326,12 +326,12 @@ ul li {
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 
-.mh-experince .mh-education-deatils .mh-education-item h4 a {
+.mh-experince .mh-education-deatils .mh-education-item h4 span {
   font-style: italic;
   margin-left: 4px;
   color: #0bceaf;
 }
-.mh-work .mh-experience-deatils .mh-work-item h4 a {
+.mh-work .mh-experience-deatils .mh-work-item h4 span {
   color: #0bceaf;
 }
 
@@ -351,7 +351,7 @@ ul li {
   font-weight: 600;
 }
 
-.mh-work .mh-experience-deatils .mh-work-item h4 a {
+.mh-work .mh-experience-deatils .mh-work-item h4 span {
   color: #0bceaf;
 }
 

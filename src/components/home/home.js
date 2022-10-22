@@ -111,14 +111,14 @@ const Home = () => {
                                 <div className="mh-education-deatils">
 
                                     <div className="mh-education-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.3s" >
-                                        <h4>Advanced Diploma in Business Adminstration From <a href="#">Univerity of Lagos</a></h4>
+                                        <h4>Advanced Diploma in Business Adminstration From <span>Univerity of Lagos</span></h4>
                                         <div className="mh-eduyear">2020-2021</div>
                                         <p>It is a long established fact that a reader will be distracted by the readable content of a 
                                         page when looking at its layout. The point of using  Lorem Ipsum </p>
                                     </div>                      
 
                                     <div className="mh-education-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.5s" >
-                                        <h4>Statistics with Computer Science From <a href="#">University of Benin</a></h4>
+                                        <h4>Statistics with Computer Science From <span>University of Benin</span></h4>
                                         <div className="mh-eduyear">2012-2016</div>
                                         <p>It is a long established fact that a reader will be distracted by the readable content of a 
                                         page when looking at its layout. The point of using  Lorem Ipsum </p>
@@ -134,7 +134,7 @@ const Home = () => {
                                 <div className="mh-experience-deatils">
 
                                     <div className="mh-work-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.4s" >
-                                        <h4>Engineering Team Lead at <a href="#">Seven-Up Bottling Company Limited</a></h4>
+                                        <h4>Engineering Team Lead at <span>Seven-Up Bottling Company Limited</span></h4>
                                         <div className="mh-eduyear">2018-Present</div>
                                         <span>Responsibility :</span>
                                         <ul className="work-responsibility">
@@ -144,7 +144,7 @@ const Home = () => {
                                     </div>                       
 
                                     <div className="mh-work-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.6s" >
-                                        <h4>IT Manager at <a href="#">Dage Digital Limited</a></h4>
+                                        <h4>IT Manager at <span>Dage Digital Limited</span></h4>
                                         <div className="mh-eduyear">2016-2018</div>
                                         <span>Responsibility :</span>
                                         <ul className="work-responsibility">
@@ -154,7 +154,7 @@ const Home = () => {
                                     </div>                        
 
                                     <div className="mh-work-item  wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.7s" >
-                                        <h4>Web Developer at <a href="#">Thought Studios Limited</a></h4>
+                                        <h4>Web Developer at <span>Thought Studios Limited</span></h4>
                                         <div className="mh-eduyear">2015-2016</div>
                                         <span>Responsibility :</span>
                                         <ul className="work-responsibility">
