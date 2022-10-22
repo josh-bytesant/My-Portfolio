@@ -22,7 +22,7 @@ const AppBar = () => {
     return (
         <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
           <div className="container">
-            <a className="navbar-brand" href="#">JU</a>
+          <span class="navbar-brand mb-0 h1">JU</span>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
