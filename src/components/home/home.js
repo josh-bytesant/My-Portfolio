@@ -88,7 +88,7 @@ const Home = () => {
                     <div className="col-sm-12 col-md-6">
                         <div className="mh-about-inner">
                             <h2 className="wow fadeInRight about-image-container" data-wow-duration="0.8s" data-wow-delay="0.1s" >About Me</h2>
-                            <p className="wow fadeInRight about-image-container" data-wow-duration="0.8s" data-wow-delay="0.2s" >Hello, I’m a Joshua, a Full-Stack Software Engineer. 
+                            <p className="wow fadeInRight about-image-container" data-wow-duration="0.8s" data-wow-delay="0.2s" >Hello, I’m Joshua, a Full-Stack Software Engineer. 
                             I am passionate and highly skilled at solutions architecture design, development, and contributing ideas to solutions that make life easier for everyone in the internet age.</p>
                             <div className="mh-about-tag wow fadeInRight about-image-container" data-wow-duration="0.8s" data-wow-delay="0.3s">
                                 <ul>
@@ -120,7 +120,7 @@ const Home = () => {
                                     <div className="mh-education-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.3s" >
                                         <h4>Advanced Diploma in Business Adminstration From <span>Univerity of Lagos</span></h4>
                                         <div className="mh-eduyear">2020-2021</div>
-                                        <p>Business Adminstration, Business Law, Strategic Business Communication, Business Environment, Business Statistics, Marketing Management </p>
+                                        <p>Business Management, Business Law, Strategic Business Communication, Business Environment, Business Statistics, Marketing Management </p>
                                     </div>                      
 
                                     <div className="mh-education-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.5s" >
