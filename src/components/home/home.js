@@ -1,9 +1,16 @@
+import { useEffect } from "react";
 import '../../assests/css/font-awesome.min.css';
+import WOW from 'wowjs';
 
 
 
 const Home = () => {
-    
+    useEffect(() => {
+        new WOW.WOW({
+          live: false
+        }).init();
+      }, [])
+
     return (
         <div>
        
@@ -34,22 +41,22 @@ const Home = () => {
                                 </li>
                             </ul>
                             <ul className="social-icon wow fadeInUp">
-                                <li>
+                                <li title='Linkedin'>
                                     <a href="https://www.linkedin.com/in/joshua-uwagwu" target="_blank" rel="noreferrer">
                                     <i className="fa fa-linkedin"></i>
                                     </a>
                                 </li>
-                                <li>
+                                <li title='Twitter'>
                                     <a href="https://twitter.com/joshua_bytesant" target="_blank" rel="noreferrer">
                                     <i className="fa fa-twitter"></i>
                                     </a>
                                 </li>
-                                <li>
+                                <li title='Github'>
                                     <a href="https://github.com/josh-bytesant" target="_blank" rel="noreferrer">
                                     <i className="fa fa-github"></i>
                                     </a>
                                 </li>
-                                <li>
+                                <li title='Website'>
                                     <a href="https://joshuauwagwu.netlify.app">
                                     <i className="fa fa-globe"></i>
                                     </a>
@@ -74,16 +81,16 @@ const Home = () => {
             <div className="container">
                 <div className="row section-separator">
                     <div className="col-sm-12 col-md-6">
-                        <div className="mh-about-img shadow-2 wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                        <div className="mh-about-img shadow-2 wow fadeInLeft about-image-container" data-wow-duration="2.0s" data-wow-delay="0.4s">
                             <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/ab-img.png" alt="" className="img-fluid" />
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6">
                         <div className="mh-about-inner">
-                            <h2 className="wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.1s" >About Me</h2>
-                            <p className="wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.2s" >Hello, I’m a Joshua, Full-stack Engineer. 
-                            I am highly skilled at Architecture design, development, mentoring, and contributing ideas to solutions that make life easier for everyone in the internet age is something I am passionate about.</p>
-                            <div className="mh-about-tag wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <h2 className="wow fadeInRight about-image-container" data-wow-duration="0.8s" data-wow-delay="0.1s" >About Me</h2>
+                            <p className="wow fadeInRight about-image-container" data-wow-duration="0.8s" data-wow-delay="0.2s" >Hello, I’m a Joshua, a Full-Stack Software Engineer. 
+                            I am passionate and highly skilled at solutions architecture design, development, and contributing ideas to solutions that make life easier for everyone in the internet age.</p>
+                            <div className="mh-about-tag wow fadeInRight about-image-container" data-wow-duration="0.8s" data-wow-delay="0.3s">
                                 <ul>
                                     <li><span>.Net</span></li>
                                     <li><span>C#</span></li>
@@ -94,7 +101,7 @@ const Home = () => {
                                     <li><span>Javascript</span></li>
                                 </ul>
                             </div>
-                            <a href="https://drive.google.com/file/d/1IHUud6GCDVQ1wJG74ThbksT8g3uhlYS7/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-fill wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.4s">Downlaod CV <i class="fa fa-download"></i></a>
+                            <a href="https://drive.google.com/file/d/1tW1AzwJTtd1oJBm5Yk1k6-f5khL6hTK-/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-fill wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.4s">Downlaod CV <i class="fa fa-download"></i></a>
                         </div>
                     </div>
                 </div>
@@ -113,15 +120,13 @@ const Home = () => {
                                     <div className="mh-education-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.3s" >
                                         <h4>Advanced Diploma in Business Adminstration From <span>Univerity of Lagos</span></h4>
                                         <div className="mh-eduyear">2020-2021</div>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a 
-                                        page when looking at its layout. The point of using  Lorem Ipsum </p>
+                                        <p>Business Adminstration, Business Law, Strategic Business Communication, Business Environment, Business Statistics, Marketing Management </p>
                                     </div>                      
 
                                     <div className="mh-education-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.5s" >
                                         <h4>Statistics with Computer Science From <span>University of Benin</span></h4>
                                         <div className="mh-eduyear">2012-2016</div>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a 
-                                        page when looking at its layout. The point of using  Lorem Ipsum </p>
+                                        <p>Statistics, Computer Science</p>
                                     </div>                      
 
                                     
@@ -138,8 +143,8 @@ const Home = () => {
                                         <div className="mh-eduyear">2018-Present</div>
                                         <span>Responsibility :</span>
                                         <ul className="work-responsibility">
-                                            <li><i className="fa fa-circle"></i>Validate CSS</li>
-                                            <li><i className="fa fa-circle"></i>Project Management</li>
+                                            <li><i className="fa fa-circle"></i>Code review</li>
+                                            <li><i className="fa fa-circle"></i>Implementation of advanced features</li>
                                         </ul>
                                     </div>                       
 
@@ -148,8 +153,8 @@ const Home = () => {
                                         <div className="mh-eduyear">2016-2018</div>
                                         <span>Responsibility :</span>
                                         <ul className="work-responsibility">
-                                            <li><i className="fa fa-circle"></i>Validate CSS</li>
-                                            <li><i className="fa fa-circle"></i>Project Management</li>
+                                            <li><i className="fa fa-circle"></i>Supervision of developers</li>
+                                            <li><i className="fa fa-circle"></i>Design and implemenation of business requirements</li>
                                         </ul>
                                     </div>                        
 
@@ -158,8 +163,7 @@ const Home = () => {
                                         <div className="mh-eduyear">2015-2016</div>
                                         <span>Responsibility :</span>
                                         <ul className="work-responsibility">
-                                            <li><i className="fa fa-circle"></i>Validate CSS</li>
-                                            <li><i className="fa fa-circle"></i>Project Management</li>
+                                            <li><i className="fa fa-circle"></i>Design and implemenation of business requirements</li>
                                         </ul>
                                     </div>
                                 </div>
