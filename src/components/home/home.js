@@ -116,18 +116,19 @@ const Home = () => {
                             <div className="mh-education">
                                  <h3 className="wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
                                 <div className="mh-education-deatils">
-
+                                    
+                                    <div className="mh-education-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.5s" >
+                                        <h4>B.Sc. Statistics with Computer Science From <span>University of Benin</span></h4>
+                                        <div className="mh-eduyear">2012-2016</div>
+                                        <p>Statistics, Computer Science</p>
+                                    </div>  
                                     <div className="mh-education-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.3s" >
                                         <h4>Advanced Diploma in Business Adminstration From <span>Univerity of Lagos</span></h4>
                                         <div className="mh-eduyear">2020-2021</div>
                                         <p>Business Management, Business Law, Strategic Business Communication, Business Environment, Business Statistics, Marketing Management </p>
                                     </div>                      
 
-                                    <div className="mh-education-item wow fadeInUp about-image-container" data-wow-duration="0.8s" data-wow-delay="0.5s" >
-                                        <h4>Statistics with Computer Science From <span>University of Benin</span></h4>
-                                        <div className="mh-eduyear">2012-2016</div>
-                                        <p>Statistics, Computer Science</p>
-                                    </div>                      
+                                                        
 
                                     
                                 </div>
